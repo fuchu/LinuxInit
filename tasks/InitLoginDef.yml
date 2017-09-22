@@ -1,0 +1,6 @@
+---
+- name: Make password maxage unlimited
+  lineinfile:
+    path: /etc/login.defs
+    regexp: '^PASS_MAX_DAYS'
+    state: absent

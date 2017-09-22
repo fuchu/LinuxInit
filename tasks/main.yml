@@ -1,2 +1,5 @@
 ---
 # tasks file for LinuxInit
+- include: SelinuxPermissive.yml
+- include: StopIptables.yml
+- include: InitLoginDef.yml
